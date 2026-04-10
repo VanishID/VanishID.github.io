@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+      /* Дополнительные стили для цвета как на qa.studio */
+      .linsk__link {
+        color: #6C3BFF !important;
+        text-decoration: none;
+      }
+      .linsk__link:hover {
+        color: #4A1FCC !important;
+        text-decoration: underline;
+      }
+      .button-link {
+        background: #6C3BFF !important;
+        color: white !important;
+        border: none;
+        padding: 12px 30px;
+        border-radius: 30px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .button-link:hover {
+        background: #4A1FCC !important;
+      }
+      
+      /* Выравнивание пунктов по вертикали */
+      .links__link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .links__title {
+        margin: 0;
+        font-weight: 600;
+        min-width: 140px;
+      }
+      .links__value {
+        font-weight: normal;
+        margin: 0;
+        color: #6C3BFF !important;
+      }
+      .links__link a.linsk__link {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./avatar.png" alt="avatar" class="header__avatar" />
+      <h1 class="header__title">Иван Депутатов</h1>
+      <h3 class="header__subtitle">Тот, кто любит крепкий сон</h3>
+    </header>
+    <main>
+      <section class="links">
+        <h2 class="links__header">Доступен</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Телеграм</p>
+            <a class="linsk__link" href="http://t.me/ivan_deputatov">@VanishID</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Эл. почта</p>
+            <a class="linsk__link" href="mailto:wanish666@yandex.ru">Ivan Deputatov</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">VK</p>
+            <a class="linsk__link" href="http://vk.com/vanish_id">Ivan Deputatov</a>
+          </li>
+        </ul>
+      </section>
+      <section class="links">
+        <h2 class="links__header">Мои увлечения</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Ученик</p>
+            <a class="linsk__link" href="https://qa.studio/">qa.studio/</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Собираю</p>
+            <p class="links__value">кинотеатр</p>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Слушаю музыку</p>
+            <p class="links__value">каждый вечер</p>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Смотрю фильмы</p>
+            <p class="links__value">по выходным</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <button type="button" class="button-link">Кредо</button>
+    </footer>
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
