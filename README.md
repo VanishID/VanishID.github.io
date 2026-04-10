@@ -1,2 +1,2 @@
-# VanishID-qa.githab.io
+# VanishID-qa.github.io
 Сайт визитка HTML, CSS
